@@ -1,0 +1,129 @@
+*{
+    top: 0;
+    margin: 0;
+    background: #000;
+    background-image: url(./yulduz1.png);
+}
+.yer img{
+    width: 400px;
+    border-radius: 100%;
+   position: relative;
+    
+    box-shadow: rgba(255, 94, 0, 0.25) 0px 50px 100px -20px, rgba(99, 99, 99, 0.3) 0px 30px 60px -30px, rgba(148, 148, 148, 0.35) 0px -2px 6px 0px inset;  
+    animation: aylana linear 15s infinite;
+    z-index: 1;
+
+    
+
+
+
+}
+@keyframes aylana {
+    10%{
+       
+        transform: rotateZ(10deg);
+    }
+    25%{
+        transform: rotateZ(20deg);
+    }
+    50%{
+        transform: rotateZ(30deg);
+    }
+    100%{
+        transform: rotateZ(40deg);
+    }
+   
+
+}
+
+.yer{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 350PX;
+
+    display: grid;
+    grid-template-columns: max-content;
+    
+
+}
+
+
+.kameta{
+    width: 120px;
+    height: 125px;
+    margin-top: 10px;
+    margin-left: 50px;
+   
+    position: absolute;
+    /* border-radius: 70%; */
+    animation: kameta  linear 20s;
+   
+
+
+}
+.kameta h1{
+    font-size: 150px;
+    color: rgba(255, 72, 0, 0.904);
+    margin-left: 100px;
+    font-family: sans-serif;
+    
+    
+}
+.yulduz img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -100px;
+    border-radius: 50%;
+    animation: astroid 30s linear infinite;
+    background: none;
+    opacity: 70%;
+  
+}
+
+@keyframes astroid{
+    10%{
+        
+        margin-left: 100px;
+    }
+    25%{
+        margin-left: 300px;
+    }
+    50%{
+        margin-left: 400px;
+    }
+    100%{
+        margin-left: 1000px;
+    }
+}
+p{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    color: #6e6e6e;
+    margin-top: 200px;
+    margin-left: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
